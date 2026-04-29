@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import yogurtImg from "../components/yogurt.png";
+import yogurtImg from "../components/1.png";
 
 export default function Home() {
   return (

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import yogurtImg from "../components/yogurt.png";
 
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
   {/* RIGHT IMAGE */}
   <div className="flex justify-center mt-10 md:mt-0">
     <img
-      src="../components/yogurt.png"
+      src={yogurtImg}
       alt="product"
       className="w-[300px] md:w-[400px] rounded-3xl shadow-2xl hover:scale-105 transition duration-500"
     />

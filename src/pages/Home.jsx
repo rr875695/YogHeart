@@ -56,7 +56,7 @@ export default function Home() {
   {/* RIGHT IMAGE */}
   <div className="flex justify-center mt-10 md:mt-0">
     <img
-      src="/src/assets/1.png"
+      src="../components/yogurt.png"
       alt="product"
       className="w-[300px] md:w-[400px] rounded-3xl shadow-2xl hover:scale-105 transition duration-500"
     />
